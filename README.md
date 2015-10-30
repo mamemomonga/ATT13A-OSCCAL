@@ -18,14 +18,21 @@ ATTiny13A以外でも多分使えます。
 	$ make fuse
 	$ make flash
 
-# スキャナーの実行
+# フィルタツールの実行
 
 	$ cd Reciever
 	$ carton install
 	$ carton exec ./serial.pl /dev/cu.usbserial-XXXXXX
 
+	***** OSCCAL=92 *****
+	***** OSCCAL=93 *****
+	***** OSCCAL=94 *****
 	***** OSCCAL=95 *****
+	***** OSCCAL=96 *****
+	***** OSCCAL=97 *****
+	***** OSCCAL=98 *****
+	***** OSCCAL=99 *****
+	***** OSCCAL=100 *****
 
-と言う風に番号が表示されます。うまく表示されるOSCCALの真ん中あたりの数字がだいたいいい感じの値です。
-このOSCCALの値を新しく作成するプログラムのmain() の最初のほうに書きます。
+しばらくすると上のように表示されます。うまく表示される連番のOSCCALの真ん中あたりの数字がだいたいいい感じの値です。この場合96くらい。このOSCCALの値を新しく作成するプログラムのmain() の最初のほうに OSCCAL=96; みたいな感じで書きます。
 
