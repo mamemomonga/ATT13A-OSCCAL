@@ -7,7 +7,8 @@ ATTiny13A以外でも多分使えます。
 * OSX Yosemite
 * USB-UARTコンバータ
 * CrossPack AVR
-* Perl(Carton)	
+* Perl(Carton)
+* AVRISP MK2
 
 # 配線
 	PB1(6番ピン)をUSB-SerialアダプタのRXに接続します。
