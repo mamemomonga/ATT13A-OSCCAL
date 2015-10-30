@@ -4,8 +4,10 @@ ATTiny13Aの内部オシレータのキャリブレーションを行うため�
 ATTiny13A以外でも多分使えます。
 
 # 環境
-	* CrossPack AVR
-	* Perl(Carton)	
+* OSX Yosemite
+* USB-UARTコンバータ
+* CrossPack AVR
+* Perl(Carton)	
 
 # 配線
 	PB1(6番ピン)をUSB-SerialアダプタのRXに接続します。
